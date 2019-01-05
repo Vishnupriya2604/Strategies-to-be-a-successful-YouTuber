@@ -1,0 +1,374 @@
+<!--HTML code for YouTube USA analysis-->
+
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8">
+
+<head>
+    <!-- Loading css and js-->
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Link to external css from where icons are used in the Nav Bar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--This section is for the navigation panel of the page-->
+    <section>
+        <nav class='navbar fixed-top'>
+            <ul class='navbar-nav'>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="home.html"><i class="fa fa-home" style="font-size:24px"></i>
+                        Home</a>
+                </li>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="youtube_usa.html"><i class="fa fa-line-chart"
+                            style="font-size:24px"></i>
+                        YouTube in USA</a>
+                </li>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="youtube_world.html"><i class="fa fa-youtube-play"
+                            style="font-size:24px"></i>
+                        YouTube in other countries</a>
+                </li>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="conclusion.html"><i class="fa fa-wpexplorer"
+                            style="font-size:24px"></i>
+                        Observations</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <!--Section to display Top channel node graph-->
+    <section id="vis" style="padding-top: 20px">
+        <h2>Top YouTube Channels</h2>
+        <h2></h2>
+        <h3></h3>
+        <div id="chart4" class="part1">
+
+            <link rel="stylesheet" href="css/channel.css">
+
+            <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+            <script src="js/channel.js"></script>
+
+        </div>
+    </section>
+    <!--End of node graph section-->
+
+    <!--Section to display Tableau visualizations-->
+    <section id="tab">
+        <div id="sub">
+            <h1> Subscribers in Each YouTube Channel</h1>
+            <div id="left">
+                <div id="chart5">
+                    <div class='tableauPlaceholder' id='viz1543699043556' style='position: relative'><noscript>
+                            <a href='#'>
+                                <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Su&#47;Subscribers_info&#47;Sheet3&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='Subscribers_info&#47;Sheet3' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Su&#47;Subscribers_info&#47;Sheet3&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='filter' value='publish=yes' /></object></div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1543699043556');
+                        var vizElement = divElement.getElementsByTagName('object')[0];
+                        vizElement.style.width = '100%';
+                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                        var scriptElement = document.createElement('script');
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);          
+                    </script>
+
+                </div>
+            </div>
+            <div id="right">
+                <div id="text">
+                    <ul>
+                        <li>
+                            <p>
+                                The visualization shows the channels with highest number of subscribers on YouTube.
+
+                            </p>
+                        </li>
+                        <li>
+                            <p>The number of subscribers can be calculated by scraping data from the YouTube API. </p>
+                        </li>
+                        <li>
+                            <p>The highest number of subscribers a channel has is 5.51 Billion which is for The Ellen
+                                Show under Entertainment.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The second highest subscribers for a channel is WWE which is under Sports.
+
+                            </p>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+    </section>
+    <!--End of subscribers visualization-->
+
+    <!--This section is for the publish time vs views-->
+    <section id="tab">
+        <div id="pub-views">
+            <div id="left">
+                <div id="#chart6">
+                    <h1>Relationship between Publish Time of Video and the Views</h1>
+                    <div class='tableauPlaceholder' id='viz1543696676287' style='position: relative'><noscript>
+                            <a href='#'>
+                                <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pu&#47;Publish_Time&#47;Sheet1&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='Publish_Time&#47;Sheet1' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pu&#47;Publish_Time&#47;Sheet1&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='filter' value='publish=yes' /></object></div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1543696676287');
+                        var vizElement = divElement.getElementsByTagName('object')[0];
+                        vizElement.style.width = '100%';
+                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                        var scriptElement = document.createElement('script'); scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);               
+                    </script>
+                </div>
+            </div>
+            <div id="right">
+                <div id="text">
+                    <ul>
+                        <li>
+                            <p>
+                                To find out if the publish time plays a role in video success, I plotted a graph on
+                                publish
+                                time of video for every hour of the day.
+
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                Surprising that a video published at 4am got the maximum number of views. And a video
+                                published at 6am got the least number of views.
+
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of publish time vs views section-->
+
+    <!--Section for publish time vs likes -->
+    <section id="tab">
+        <div id="pub-likes">
+            <div id="left">
+                <div id="#chart7">
+                    <h1>Relationship between Publish Time of Video and it's Likes</h1>
+                    <div class='tableauPlaceholder' id='viz1543696842669' style='position: relative'><noscript>
+                            <a href='#'>
+                                <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pu&#47;Publish_Time_likes&#47;Sheet2&#47;1_rss.png'
+                                    style='border: none' /></a></noscript><object class='tableauViz' style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='Publish_Time_likes&#47;Sheet2' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Pu&#47;Publish_Time_likes&#47;Sheet2&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='filter' value='publish=yes' /></object></div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1543696842669');
+                        var vizElement = divElement.getElementsByTagName('object')[0];
+                        vizElement.style.width = '100%';
+                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                        var scriptElement = document.createElement('script');
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);          
+                    </script>
+                </div>
+            </div>
+            <div id="right">
+                <div id="text">
+                    <ul>
+                        <li>
+                            <p>
+                                To study the number of likes on each video.
+                                I plotted a time graph with the publish time of video over the likes it received every
+                                hour.
+
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The most amount of likes received were for the videos published at 3pm, followed by the
+                                videos published at 4am.
+
+                            </p>
+                        </li>
+                        <li>
+                            <p>The least number of likes were for the videos published at 6am.
+
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section><!-- End of Section for publish time vs likes-->
+
+    <!-- Section for title length -->
+    <section id="tab">
+        <div id="title">
+            <div id="left">
+                <div id="#chart8">
+                    <h1>Length of Title Vs Number of Views</h1>
+                    <div class='tableauPlaceholder' id='viz1543702052333' style='position: relative'><noscript>
+                            <a href='#'>
+                                <img alt=' ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;Title_Length_Vs_Views&#47;Sheet1&#47;1_rss.png'
+                                    style='border: none' />
+                            </a></noscript>
+                        <object class='tableauViz' style='display:none;'>
+                            <param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' />
+                            <param name='embed_code_version' value='3' />
+                            <param name='site_root' value='' />
+                            <param name='name' value='Title_Length_Vs_Views&#47;Sheet1' />
+                            <param name='tabs' value='no' />
+                            <param name='toolbar' value='yes' />
+                            <param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Ti&#47;Title_Length_Vs_Views&#47;Sheet1&#47;1.png' />
+                            <param name='animate_transition' value='yes' />
+                            <param name='display_static_image' value='yes' />
+                            <param name='display_spinner' value='yes' />
+                            <param name='display_overlay' value='yes' />
+                            <param name='display_count' value='yes' />
+                            <param name='filter' value='publish=yes' /></object></div>
+                    <script type='text/javascript'>
+                        var divElement = document.getElementById('viz1543702052333');
+                        var vizElement = divElement.getElementsByTagName('object')[0];
+                        vizElement.style.width = '100%';
+                        vizElement.style.height = (divElement.offsetWidth * 0.75) + 'px';
+                        var scriptElement = document.createElement('script');
+                        scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';
+                        vizElement.parentNode.insertBefore(scriptElement, vizElement);     
+                    </script>
+                </div>
+            </div>
+            <div id="right">
+                <div id="text">
+                    <ul>
+                        <li>
+                            <p>
+                                There is a limitation in our perception when we give a glimpse to text. So the length
+                                of
+                                the title and the number of words in titles are important factors for eye-catching.
+                                Does
+                                the title length have an effect on the views? How many words are adequate to be
+                                contained
+                                in titles?
+
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The titles of the videos have less than 100 characters and the views get the highest
+                                around
+                                30 and 50 characters. If we say a single word commonly has 5 or 6 characters, this
+                                means 5
+                                to 10 words are preferable in the title. The number of words is less than 20 and the
+                                views
+                                are highest at around 19. Therefore a title with 10 to 15 words is appropriate to get
+                                more
+                                views.
+
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End of Section for title length -->
+
+    <!--Section for bar gragh-->
+    <section id="tab">
+        <div id="money">
+            <div id="left">
+                <div id="chart9">
+                    <h1>Richest YouTubers in 2018</h1>
+                    <script src="http://d3js.org/d3.v3.min.js"></script>
+                    <link rel="stylesheet" href="css/base.css">
+                    <script src="js/d3-tip.js"></script>
+                    <script src="js/rich.js"></script>
+                </div>
+            </div>
+            <div id="right">
+                <div id="text">
+                    <ul>
+                        <li>
+                            <p>
+                                YouTuber’s make a lot of money. The visualization shows the Top 10 highest earning
+                                YouTubers in 2018.
+
+
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                They have millions of followers and get paid thousands of dollars to upload new content
+                                often.
+
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The highest paid Youtuber is Daniel Middleton who has about 19million subscribers.
+
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section><!-- End of Section for bar gragh-->
+
+    <!--Footer-->
+    <section id="foot">
+        <div id="footer">
+            &copy;
+            <script>var d = new Date(); document.write(d.getFullYear());</script>
+            | <a href="#">HTML,CSS</a>
+            | <a href="#">Data Analysis</a>
+            |<a href="#">Visualization</a>
+            | <a href="#">Developed by Vishnupriya</a>
+        </div>
+    </section>
+    <!--End of footer-->
+
+</body>
+
+</html>
