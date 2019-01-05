@@ -1,0 +1,245 @@
+/*
+ This style sheet is used to style all the webpages
+*/
+
+*{
+    box-sizing:border-box;
+}
+
+html {
+ 
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #0c0c0c;
+    text-align: left;
+    background-color: #fff;
+    
+
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+    justify-content: space-between;
+    width: 100%;
+    min-height:100%;
+    position:relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+.navbar{
+    display:flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    /*padding: .5rem 1rem;*/
+    background-color:rgba(0, 0, 0, 0.726);
+    height:50px;
+}
+
+.navbar-nav{
+    display: flex;
+    flex-direction: row;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    margin-left: auto!important;
+}
+
+.navbar-collapse{
+    display: flex!important;
+    flex-basis: auto;
+    flex-grow: 1;
+    align-items: center;
+}
+
+.navbar.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-link {
+    display: block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+
+li.nav-item:hover {
+  background-color:black;
+  border-bottom: 2px solid yellow;
+}
+
+h1 {
+    display: block;
+    font-weight: bold;
+    font-style: italic;
+    text-align: center;
+}
+h3 {
+    text-decoration-color: #0c0c0c;
+}
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+    margin-top: 0;
+    height: 50px;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+    padding: .5rem .5rem;
+}
+
+a {
+    color:white;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+a:focus {
+    color:gray ;
+    text-decoration: none;
+}
+
+a:active {
+    color:gainsboro ;
+    text-decoration: none;
+}
+
+#home{
+    padding-top:100px;
+    position: relative;
+    overflow:auto;
+    height: 900px ;
+    width:1366 px;
+    background-image:url(images/home.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    text-align: right;
+    
+}
+.p{
+    position: relative;
+    padding-top: 30px;
+}
+.top-right {
+    position: absolute;
+    bottom: 8px;
+    right: 16px;
+}
+
+#youtube-us{
+    padding-top:50px;
+    position:relative;
+    overflow:auto;
+}
+
+#youtube-us{
+
+   background-image: linear-gradient(to bottom right,#F2F2F2, #FFFFFF);
+}
+
+#left{
+     width:70%;
+    float:left;
+     
+}
+
+#right{
+    width:30%;
+    float:right;
+    padding-top:10%;
+    
+}
+
+.bar-line{
+    border-right: 1px dotted #2e3530;
+    border-style: inset;
+   
+  
+}
+
+#country
+{
+    color: #bdc3c7;
+  background-color: #1c201d;
+  position: relative;
+  padding-top: 45px;
+  padding-bottom: 0px;
+  min-height: 900px; /* set default height */
+  transition: all 0.5s ease; /* optional css transition effect */
+}
+
+.hide
+{
+    display: none;
+}
+
+#footer {
+	width: 100%;
+    height: 50px;
+	padding: 20px 0 4px 0;
+	text-align: center;
+	background: #555;
+	color: #aaa;
+	border-top: 1px solid #fff;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+    font-size: 80%;
+    position: absolute;
+}
+
+#footer a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#tab
+{
+    position:relative;
+    height:900px;
+    overflow:visible;
+}
+
+#chart9
+{
+    max-height:700px;
+}
+#chart
+{
+    min-height: 700px;
+}
+#chart,#chart1,#chart2,#chart3
+{
+    height: 600px!important;
+}
+#vis
+{
+    background-color: teal;
+}

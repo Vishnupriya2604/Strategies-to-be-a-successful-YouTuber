@@ -1,0 +1,276 @@
+{
+  "Channel_title": "YouTube",
+  "name": "YouTube",
+  "img": "https://cdn.wccftech.com/wp-content/uploads/2017/08/Screen-Shot-2017-08-30-at-12.37.20-AM.png",
+  "link": "https://www.youtube.com/", 
+  "children": [
+    {
+      "Channel_title": "Music",
+      "name": "Music",
+      "children": [
+        {
+          "Channel_title": "ChildishGambinoVEVO",
+          "Sum_of_views": 3758488765,
+          "Sum_of_likes": 96700818,
+          "Sum_of_dislikes": 6054434,
+          "Sum_of_comments": 10151289,
+          "img": "https://i.ytimg.com/vi/VYOjWnS4cMY/default.jpg",
+          "link": "https://www.youtube.com/channel/UC20LoHy2mX0LQODrkUalxVQ",
+          "size": 40000
+        },
+        {
+          "Channel_title": "ibighit",
+          "Sum_of_views": 2235906679,
+          "Sum_of_likes": 199247121,
+          "Sum_of_dislikes": 3467306,
+          "Sum_of_comments": 31817464,
+          "img": "https://i.ytimg.com/vi/8O_MwlZ2dEg/default.jpg",
+          "link": "https://www.youtube.com/user/ibighit",
+          "size": 40000
+        },
+        {
+          "Channel_title": "ArianaGrandeVevo",
+          "Sum_of_views": 1576959172,
+          "Sum_of_likes": 52170970,
+          "Sum_of_dislikes": 1931230,
+          "Sum_of_comments": 4295333,
+          "img": "https://i.ytimg.com/vi/ffxKSjUwKdU/default.jpg",
+          "link": "https://www.youtube.com/user/ArianaGrandeVevo",
+          "size": 40000
+        },
+        {
+          "Channel_title": "MalumaVEVO",
+          "Sum_of_views": 1551515831,
+          "Sum_of_likes": 23278380,
+          "Sum_of_dislikes": 1757948,
+          "Sum_of_comments": 1227634,
+          "img": "https://i.ytimg.com/vi/vjI4Alon-3Q/default.jpg",
+          "link": "https://www.youtube.com/user/MalumaVEVO",
+          "size": 40000
+        },
+        {
+          "Channel_title": "jypentertainment",
+          "Sum_of_views": 1486972132,
+          "Sum_of_likes": 44900910,
+          "Sum_of_dislikes": 2482131,
+          "Sum_of_comments": 7575510,
+          "img": "https://yt3.ggpht.com/a-/AN66SAwUPKXfyx48SC0R-bZmXRk-CamNAXRk9DpEmw=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/jypentertainment",
+          "size": 40000
+        },
+        {
+          "Channel_title": "BeckyGVEVO",
+          "Sum_of_views": 1182971286,
+          "Sum_of_likes": 19185287,
+          "Sum_of_dislikes": 1616616,
+          "Sum_of_comments": 1176862,
+          "img": "https://yt3.ggpht.com/a-/AN66SAzzrHxZSJZDCLfrTWn489GJ6YDNl45GwU5r2Q=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/BeckyGVEVO",
+          "size": 40000
+        },
+        {
+          "Channel_title": "CalvinHarrisVEVO",
+          "Sum_of_views": 1042564430,
+          "Sum_of_likes": 17958660,
+          "Sum_of_dislikes": 716558,
+          "Sum_of_comments": 588676,
+          "img": "https://yt3.ggpht.com/a-/AN66SAxOVgsW5OSJNXa4RxuymwWw1GZvZErW8ospRw=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/CalvinHarrisVEVO",
+          "size": 40000
+        },
+        {
+          "Channel_title": "Ed Sheeran",
+          "Sum_of_views": 1032288961,
+          "Sum_of_likes": 39279211,
+          "Sum_of_dislikes": 769501,
+          "Sum_of_comments": 1950501,
+          "img": "https://yt3.ggpht.com/a-/AN66SAyqXY_gRt8dzeInCeBYca1CG0lRpFlFMZTR=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/EdSheeran",
+          "size": 40000
+        },
+        {
+          "Channel_title": "Cardi B",
+          "Sum_of_views": 1026247756,
+          "Sum_of_likes": 26724811,
+          "Sum_of_dislikes": 1431459,
+          "Sum_of_comments": 1692916,
+          "img": "https://yt3.ggpht.com/a-/AN66SAxXiNUmStjrFfWSfo25hI40wDQQ08GdWt9bog=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/channel/UCxMAbVFmxKUVGAll0WVGpFw",
+          "size": 40000
+        },
+        {
+          "Channel_title": "TaylorSwiftVEVO",
+          "Sum_of_views": 1010955662,
+          "Sum_of_likes": 39292840,
+          "Sum_of_dislikes": 2127542,
+          "Sum_of_comments": 3352611,
+          "img": "https://yt3.ggpht.com/a-/AN66SAzxAXn7tewvRLSk8BqoKiGSk4Aaf4ZOB1SAFg=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/TaylorSwiftVEVO",
+          "size": 40000
+        },
+        {
+          "Channel_title": "ZaynVEVO",
+          "Sum_of_views": 838561451,
+          "Sum_of_likes": 31695245,
+          "Sum_of_dislikes": 777336,
+          "Sum_of_comments": 2144996,
+          "img": "https://yt3.ggpht.com/a-/AN66SAwSCUq6yrmcgOEJceZ59miXxHm0zN1k3-Su-A=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/channel/UCy5FUarBYUHFpPtYVuvzgcA",
+          "size": 40000
+        },
+        {
+          "Channel_title": "JenniferLopezVEVO",
+          "Sum_of_views": 819466359,
+          "Sum_of_likes": 14238664,
+          "Sum_of_dislikes": 1658325,
+          "Sum_of_comments": 980470,
+          "img": "https://yt3.ggpht.com/a-/AN66SAxe7pquiy3qsK9iM9Cba7zMGpmCVE6f132pzg=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/JenniferLopezVEVO",
+          "size": 40000
+        },
+        {
+          "Channel_title": "Selena Gomez",
+          "Sum_of_views": 818792483,
+          "Sum_of_likes": 20165850,
+          "Sum_of_dislikes": 346079,
+          "Sum_of_comments": 1002366,
+          "img": "https://yt3.ggpht.com/a-/AN66SAxLtsecsqtT-uwNbACez786avQhcG3OfvjJrw=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/SelenaGomezVEVO",
+          "size": 40000
+        },
+        {
+          "Channel_title": "TheWeekndVEVO",
+          "Sum_of_views": 778810304,
+          "Sum_of_likes": 16996782,
+          "Sum_of_dislikes": 369107,
+          "Sum_of_comments": 774444,
+          "img": "https://yt3.ggpht.com/a-/AN66SAzPlwEYhfjiCZN5HStk13dNkI3scbC_1Oez2g=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/TheWeekndVEVO",
+          "size": 40000
+        },
+        {
+          "Channel_title": "Daddy Yankee",
+          "Sum_of_views": 735203270,
+          "Sum_of_likes": 14315687,
+          "Sum_of_dislikes": 932681,
+          "Sum_of_comments": 903124,
+          "img": "https://yt3.ggpht.com/a-/AN66SAypgd2Y5ATQhmMQijmwI0fN5kxbuhVEl0tmAA=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/DaddyYankeeOFFTV",
+          "size": 40000
+        },
+        {
+          "Channel_title": "Diplo",
+          "Sum_of_views": 700357966,
+          "Sum_of_likes": 19952063,
+          "Sum_of_dislikes": 702304,
+          "Sum_of_comments": 973561,
+          "img": "https://yt3.ggpht.com/a-/AN66SAxiPOjmN_5svkDMdrD3Uw5PBPTeVHczpY8mVQ=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/diplo1978",
+          "size": 40000
+        }
+      ]
+    },
+    {
+      "Channel_title": "Sports",
+      "name": "Sports",
+      "children": [
+        {
+          "Channel_title": "Dude Perfect",
+          "Sum_of_views": 1870085178,
+          "Sum_of_likes": 60275557,
+          "Sum_of_dislikes": 1501477,
+          "Sum_of_comments": 4009163,
+          "img": "https://i.ytimg.com/vi/9oyKePWRi8Y/default.jpg",
+          "link": "https://www.youtube.com/user/corycotton",
+          "size": 40000
+        }
+      ]
+    },
+    {
+      "Channel_title": "Entertainment",
+      "name": "Entertainment",
+      "children": [
+        {
+          "Channel_title": "Marvel Entertainment",
+          "Sum_of_views": 1808998971,
+          "Sum_of_likes": 55873344,
+          "Sum_of_dislikes": 1031250,
+          "Sum_of_comments": 6453560,
+          "img": "https://yt3.ggpht.com/a-/AN66SAwQlZAow0EBMi2-tFht-HvmozkqAXlkejVc4A=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/MARVEL",
+          "size": 40000
+        },
+        {
+          "Channel_title": "Sony Pictures Entertainment",
+          "Sum_of_views": 1432374398,
+          "Sum_of_likes": 30106808,
+          "Sum_of_dislikes": 1414686,
+          "Sum_of_comments": 3533551,
+          "img": "https://yt3.ggpht.com/a-/AN66SAyP7u9a3ir0fSx9U9JGKuA8D-UJZ-g1M0Q7LQ=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/SonyPictures",
+          "size": 40000
+        },
+        {
+          "Channel_title": "FoxStarHindi",
+          "Sum_of_views": 1238609854,
+          "Sum_of_likes": 23762509,
+          "Sum_of_dislikes": 910745,
+          "Sum_of_comments": 1782776,
+          "img": "https://yt3.ggpht.com/a-/AN66SAxcPx93EJ9x-IMhQNSTtBhi9QP0ABpvLZaB0Q=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/FoxStarHindi",
+          "size": 40000
+        },
+        {
+          "Channel_title": "20th Century Fox",
+          "Sum_of_views": 1082872611,
+          "Sum_of_likes": 24419452,
+          "Sum_of_dislikes": 488761,
+          "Sum_of_comments": 1509224,
+          "img": "https://yt3.ggpht.com/a-/AN66SAwtsHodTEUXBGyJfdmCCVfGEML0iAsZMHDoQA=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/FoxMovies",
+          "size": 40000
+        },
+        {
+          "Channel_title": "Universal Pictures",
+          "Sum_of_views": 883707419,
+          "Sum_of_likes": 12481737,
+          "Sum_of_dislikes": 529442,
+          "Sum_of_comments": 1351963,
+          "img": "https://yt3.ggpht.com/a-/AN66SAyEjJhI3Gm465OXCpjV8BrYMsevHCsmLFtjnQ=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/UniversalPictures",
+          "size": 40000
+        },
+        {
+          "Channel_title": "Disney%u2022Pixar",
+          "Sum_of_views": 826815182,
+          "Sum_of_likes": 13623208,
+          "Sum_of_dislikes": 449099,
+          "Sum_of_comments": 1410747,
+          "img": "https://yt3.ggpht.com/a-/AN66SAwY4nsT-MKLel5hg4QPeGM2ddNGoIA0rqk70Q=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/DisneyPixar",
+          "size": 40000
+        },
+        {
+          "Channel_title": "YouTube Spotlight",
+          "Sum_of_views": 791388476,
+          "Sum_of_likes": 20173324,
+          "Sum_of_dislikes": 10924092,
+          "Sum_of_comments": 6495154,
+          "img": "https://yt3.ggpht.com/a-/AN66SAxolYSZ7z95fmO69tcaJ7LwL1WxKLavCbObjA=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/YouTube",
+          "size": 40000
+        },
+        {
+          "Channel_title": "Warner Bros. Pictures",
+          "Sum_of_views": 665142792,
+          "Sum_of_likes": 5952414,
+          "Sum_of_dislikes": 760592,
+          "Sum_of_comments": 995175,
+          "img": "https://yt3.ggpht.com/a-/AN66SAwWngqtoYrvKcMfXe0I3yO0HrNOJR3m-PWWmg=s288-mo-c-c0xffffffff-rj-k-no",
+          "link": "https://www.youtube.com/user/WarnerBrosPictures",
+          "size": 40000
+        }
+      ]
+    }
+  ]
+}

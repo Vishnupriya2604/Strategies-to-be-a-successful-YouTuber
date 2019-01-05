@@ -1,0 +1,18 @@
+[
+    {"Category": "Autos & Vehicles", "Number_of_videos": 283},
+    {"Category": "Comedy", "Number_of_videos": 2582},
+    {"Category": "Education", "Number_of_videos": 1304},
+    {"Category": "Entertainment", "Number_of_videos":7677},
+    {"Category": "Film & Animation", "Number_of_videos": 1822},
+    {"Category": "Gaming", "Number_of_videos": 733},
+    {"Category": "Howto & Style", "Number_of_videos": 3288},
+    {"Category": "Music", "Number_of_videos": 4956},
+    {"Category": "News & Politics", "Number_of_videos": 1733},
+    {"Category": "Nonprofits & Activism", "Number_of_videos": 43},
+    {"Category": "People & Blogs", "Number_of_videos": 2463},
+    {"Category": "Pets & Animals", "Number_of_videos": 742},
+    {"Category": "Science & Technology", "Number_of_videos": 1892},
+    {"Category": "Shows", "Number_of_videos": 48},
+    {"Category": "Sports", "Number_of_videos": 1711},
+    {"Category": "Travel & Events", "Number_of_videos": 302}
+]
