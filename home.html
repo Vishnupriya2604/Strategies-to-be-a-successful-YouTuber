@@ -1,0 +1,157 @@
+<!--Html code for Home Page-->
+
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+
+<head>
+    <!-- Loading css and js-->
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <!--Link to external css from where icons are used in the Nav Bar-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <!--This section is for the navigation panel of the page-->
+    <section>
+        <nav class='navbar fixed-top'>
+            <ul class='navbar-nav'>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="#home.html"><i class="fa fa-home" style="font-size:24px"></i>
+                        Home</a>
+                </li>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="youtube_usa.html"><i class="fa fa-line-chart"
+                            style="font-size:24px"></i>
+                        YouTube in USA</a>
+                </li>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="youtube_world.html"><i class="fa fa-youtube-play"
+                            style="font-size:24px"></i>
+                        YouTube in other countries</a>
+                </li>
+                <li class='nav-item'>
+                    <a class="nav-link js-scroll-trigger active" href="conclusion.html"><i class="fa fa-wpexplorer"
+                            style="font-size:24px"></i>
+                        Observations</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+    <!--This section is for the home page-->
+    <section id='home'>
+        <div id="home_page">
+            <div class="bottom-right">
+                <h1>Visualization of Complex Data</h1>
+            </div>
+        </div>
+    </section>
+
+    <!--This section is used for displaying sankey diagram to display comparison of views, likes, dislikes and comments-->
+    <section id="youtube-us">
+        <div id="youtube-us-analysis">
+            <div id="left">
+                <h1>Comparison of Views, Likes, Dislikes and Comments of Topics on YouTube</h1>
+                <div id="chart2">
+                    <script src="https://d3js.org/d3.v4.min.js"></script>
+                    <script src="https://unpkg.com/d3-sankey@0.4.1"></script>
+                    <script src="js/sankey_chart.js"></script>
+                </div>
+            </div>
+            <div id="right">
+                <ul>
+                    <li>
+                        <p>Video views are the highest when compared to different factors such as Likes,Dislikes and
+                            Comments.</p>
+                    </li>
+                    <li>
+                        <p>From the Visualization we can see that the number of likes, dislikes and comments count
+                            show a similar distribution.</p>
+                    </li>
+                    <li>
+                        <p>The chart shows the number of videos or views that can tell you which topic is the hottest.
+                            They can tell you what are the main interests of people. You can also find the response
+                            level of users with likes and dislikes, comment counts for each topic.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--Display bar graph that has top trnding topics on Youtube-->
+        <div id='youtube-us-analysis'>
+            <div id='left'>
+                <h2> Top Trending Topics on YouTube</h2>
+                <div id="chart"></div>
+                <script src="http://d3js.org/d3.v3.min.js"></script>
+                <link rel="stylesheet" href="css/base.css">
+                <script src="js/d3-tip.js"></script>
+                <script src="js/bars.js"></script>
+
+            </div>
+
+            <div id='right'>
+                <ul>
+                    <li>
+                        There are 16 types of video topics, This was obtained by counting the number of videos and
+                        channels under each topic.
+                    </li>
+                    <li>
+                        <p>The distributions of the video and channel number show different patterns. The order of
+                            topics on the y-axis is the same. I arranged the order by the number of videos.
+                        </p>
+                    </li>
+                    <li>
+                        <p>Entertainment is the hottest category on YouTube. Music, People & Blog, Howto & Style,
+                            and Science & Technology have a large number of channels.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--End of bar gragh-->
+
+        <!--Pie chart-->
+        <div id="youtube-us-analysis">
+            <div id="left">
+                <h1>Percentage of Views, Likes and Dislikes</h1>
+                <form>
+                    <label><input type="radio" name="dataset" id="dataset" value="views" checked> % of Views</label>
+                    <label><input type="radio" name="dataset" id="dataset" value="likes"> % of Likes</label>
+                    <label><input type="radio" name="dataset" id="dataset" value="dislikes"> % of Dislikes</label>
+                </form>
+                <div id="chart3"></div>
+                <link rel="stylesheet" href="css/base.css">
+                <script src="js/d3-tip.js"></script>
+                <script src="js/pie_chart.js"></script>
+            </div>
+            <div id="right">
+                <ul>
+                    <li>
+                        <p>The best ratio for measuring success is by getting the Percentage of Views, Likes and
+                            Dislikes.</p>
+                    </li>
+                    <li>
+                        <p>The pie chart shows Views, Likes and Dislikes as a percentage in each category of YouTube
+                            category.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--End of pie chart-->
+    </section>
+    <!--End of section-->
+    <!--Footer-->
+    <section>
+        <div id="footer">
+            &copy;
+            <script>var d = new Date(); document.write(d.getFullYear());</script>
+            | <a href="#">HTML,CSS</a>
+            | <a href="#">Data Analysis</a>
+            |<a href="#">Visualization</a>
+            | <a href="#">Developed by Vishnupriya</a>
+        </div>
+    </section>
+    <!--End of footer-->
+</body>
+
+</html>
